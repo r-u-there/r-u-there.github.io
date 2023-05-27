@@ -64,6 +64,47 @@ December<br>
   <li>With Kimya, we discussed the ways of getting image data from the javascript and integrating it into the analysis in python.</li>
   <li>Prepared the demo presentation with Kimya.</li>
 </ul>
+	    
+January<br>
+<ul>
+	<li>I implemented a head pose estimation algorithm that solves the Perspective-n-Point problem (PNP).</li>
+	<li>I wrote the function for iris pose estimation using facial points extracted with Mediapipe.</li>
+	<li>I implemented the Feature Extractor module.</li>
+	<li>I integrated the first version of the emotion recognition model (emonet) into the Feature Extractor module.</li>
+</ul>
+	
+February<br>
+<ul>
+	<li>I started building a FastAPI endpoint to receive frames, extract features, and make predictions.</li>
+	<li>I implemented the Dataset Preparation module.</li>
+	<li>I conducted research on the most efficient way to send video frames from the frontend to the backend.</li>
+</ul>
+
+March<br>
+<ul>
+	<li>I implemented video stream creation and recording functions in the React module.</li>
+	<li>I implemented the first version of video sending from React and receiving in FastAPI.</li>
+	<li>We encountered a bug in this version; on some computers, we could successfully send the video chunks to the backend, but on others, the received video frames were distorted. I worked on debugging this issue, which took a lot of time due to the multifactorial environment. I eventually solved the bug.</li>
+	<li>I conducted research on RNN models for our attention model.</li>
+</ul>
+
+April<br>
+<ul>
+	<li>Myself and all other group members prepared the dataset by recording our videos and labeling them in chunks.</li>
+	<li>I collected these videos from group members and created the final dataset by extracting features.</li>
+	<li>I trained and tested the RNN model with this dataset. I conducted hyperparameter tuning to increase the model's performance. The test accuracy of the model was 74.64%.</li>
+</ul>
+
+May<br>
+<ul>
+	<li>We realized that 10 seconds was a bit long for video chunks. In order to show the attention score more frequently, we decided to train a model for 5-second-long videos. That's why I recreated the dataset by labeling and extracting features from the existing videos.</li>
+	<li>I conducted the training, testing, and hyperparameter tuning processes again. This time, we were able to reach 88.55% test accuracy.</li>
+	<li>I implemented the Poll functionality in both the backend and frontend. Bilgehan added CSS on top of it.</li>
+	<li>Conducted debugging of some errors.</li>
+	<li> Wrote development/implementation details in Final Report.</li>
+	<li> </li>
+	<li> </li>
+</ul>
 
     </body>
 </html>
