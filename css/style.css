@@ -607,6 +607,10 @@ ul.btn li:last-child {
 
 
 /** about section **/
+.about2 {
+     background: #363636;
+     padding: 90px 0;
+}
 
 .about {
      background: #fafafa;
